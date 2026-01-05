@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -132,11 +132,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\BadSoldier.cpp" />
+    <ClCompile Include="src\Castle.cpp" />
     <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GoodSoldier.cpp" />
+    <ClCompile Include="src\Grid.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Pathfinding.cpp" />
+    <ClCompile Include="src\Projectile.cpp" />
+    <ClCompile Include="src\Resource.cpp" />
     <ClCompile Include="src\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Header.h" />
+    <ClInclude Include="include\BadSoldier.h" />
+    <ClInclude Include="include\Castle.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\GoodSoldier.h" />
+    <ClInclude Include="include\Grid.h" />
+    <ClInclude Include="include\Pathfinding.h" />
+    <ClInclude Include="include\Projectile.h" />
+    <ClInclude Include="include\Resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
